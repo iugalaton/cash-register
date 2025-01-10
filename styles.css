@@ -58,8 +58,10 @@ p {
     font-size: large;
     line-height: 1.5;
 }
-
-#total {
+#change-due {
+    margin: 30px;
+}
+#reg-1 >p {
     background-color: black;
 }
 

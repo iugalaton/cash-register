@@ -13,16 +13,16 @@
 <body>
     <main>
         <h1>Cash Register Project </h1>
-        <form>
+        <form id="input-form">
             <label for="cash">Enter cash from customer:</label>
-            <input type="number" id="cash" name="cash" required minlength="1">
+            <input type="number" step="0.01" id="cash" name="cash" required minlength="1">
             <button  id="purchase-btn">Purchase</button>
         </form>
        
         <div id="cash-register">
-
+            <div id="change-due"></div>
             <div id="reg-1">
-                <p id="total">Total:</p>         
+                <p>Total: <span id="total"></span></p>         
             </div>
 
             <div id="connector"></div>
